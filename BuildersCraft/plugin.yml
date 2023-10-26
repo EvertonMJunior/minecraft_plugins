@@ -1,0 +1,13 @@
+name: BuildersCraft
+author: EvertonPvP
+main: me.everton.bc.Main
+version: 1.0
+description: Plugin da BuildersCraft
+commands: 
+  tag
+  head:
+  speed:
+  gm:
+  fly:
+  setwarp:
+  warp:

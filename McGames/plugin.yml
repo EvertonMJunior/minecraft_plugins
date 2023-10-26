@@ -1,0 +1,5 @@
+name: McGames
+autor: Everton
+version: 1.0
+main: me.everton.mcgames.Main
+depend: [BossbarLib]

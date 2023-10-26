@@ -1,0 +1,11 @@
+eclipse.preferences.version=1
+encoding//src/me/everton/pvp/Main.java=UTF-8
+encoding//src/me/everton/pvp/ScoreboardManager.java=UTF-8
+encoding//src/me/everton/pvp/cmds/Admin.java=UTF-8
+encoding//src/me/everton/pvp/cmds/Hack.java=UTF-8
+encoding//src/me/everton/pvp/cmds/StaffChat.java=UTF-8
+encoding//src/me/everton/pvp/cmds/Troll.java=UTF-8
+encoding//src/me/everton/pvp/e1v1/bot/Bot.java=UTF-8
+encoding//src/me/everton/pvp/listeners/Chat.java=UTF-8
+encoding//src/me/everton/pvp/listeners/Signs.java=UTF-8
+encoding//src/me/everton/pvp/villagers/VillagerCmd.java=UTF-8

@@ -1,0 +1,8 @@
+name: ObsidianDestroyer
+author: EvertonPvP
+main: me.everton.od.Main
+depend: [WorldGuard,WorldEdit]
+version: 1.0
+commands:
+  time:
+  start:

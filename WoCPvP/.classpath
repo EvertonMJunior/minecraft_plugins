@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7"/>
+	<classpathentry kind="lib" path="D:/mc/workspace/BarAPI.jar"/>
+	<classpathentry kind="lib" path="D:/mc/workspace/TagAPI.jar"/>
+	<classpathentry kind="lib" path="D:/mc/workspace/ProtocolLib-3.4.0.jar"/>
+	<classpathentry kind="lib" path="D:/mc/Desktop/Outros/BackUp/plugins/UltraKits.jar"/>
+	<classpathentry kind="lib" path="D:/mc/Downloads/worldguard-5.9.jar"/>
+	<classpathentry kind="lib" path="D:/mc/Downloads/worldedit-5.6.jar"/>
+	<classpathentry kind="lib" path="D:/mc/Desktop/Outros/BackUp2/plugins/PermissionsEx.jar"/>
+	<classpathentry kind="lib" path="D:/mc/Downloads/ProtyPvP-Flat/craftbukkit.jar"/>
+	<classpathentry kind="lib" path="D:/mc/workspace/bukkit.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

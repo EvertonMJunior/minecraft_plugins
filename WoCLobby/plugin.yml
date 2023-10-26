@@ -1,0 +1,10 @@
+name: WoCLobby
+author: EvertonPvP
+main: me.everton.lobby.Main
+version: 1.0
+description: Plugin de Lobby para o WoC
+depend: [BarAPI,ProtocolLib]
+commands: 
+  tag:
+  admin:
+  specs:

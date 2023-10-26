@@ -1,0 +1,11 @@
+name: jPvP
+description: Plugin de KitPvP
+autor: EvertonPvP
+version: 1.0
+main: me.everton.jpvp.Main
+depend: [ProtocolLib, BarAPI, WorldEdit, WorldGuard]
+
+commands:
+  kit:
+    description: Escolha seu Kit
+    aliases: kits

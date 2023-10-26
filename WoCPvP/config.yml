@@ -1,0 +1,82 @@
+staff:
+  dono: wytt
+  trial: galinha_pvp
+  admin: mcdudu
+  mod: zluc1ano_
+msgauto:
+- '&6[WoCPvP] &cQuer ser Youtuber aqui? Use /youtuber!'
+- '&6[WoCPvP] &cViu algum Hacker? Use /report!'
+- '&6[WoCPvP] &cQuer ser da Staff? Use /aplicacao!'
+- '&6[WoCPvP] &cComprando Vip, você deixa o servidor ON e garante seus beneficios!'
+- '&6[WoCPvP] &cSe passar no formulario, sera contatado! Caso fique pedindo para ler,
+  suas chances serao diminuidas!'
+log: false
+mysql:
+  usar: false
+  ip: 127.0.0.1
+  db: wocpvp
+  user: root
+  senha: vertrigo
+fps:
+  world: FPS
+  x: 500.4999727001231
+  y: 113.0
+  z: 500.6055743297081
+  yaw: -1.4602046
+  pitch: 14.054466
+hg:
+  world: HG
+  x: 1000.5212048756808
+  y: 134.0
+  z: 1000.4648226627262
+  yaw: 88.3424
+  pitch: 2.5553515
+coliseu:
+  world: ColiseuAreia
+  x: 190.56942543746325
+  y: 117.0
+  z: 232.34969245498854
+  yaw: -0.6028898
+  pitch: 14.769707
+snowlands:
+  world: Wess
+  x: -219.49153537488266
+  y: 48.0
+  z: -190.49906513490444
+  yaw: 359.57547
+  pitch: -0.73010474
+lavachallenge:
+  world: LavaChallenge
+  x: 991.4649978361043
+  y: 108.0
+  z: 1001.6255018281726
+  yaw: 180.08527
+  pitch: 3.9333181
+texturas:
+  world: Textura
+  x: 139.43934157108484
+  y: 92.0
+  z: 97.48474956719386
+  yaw: 89.18462
+  pitch: 2.148201
+parkour:
+  world: Parkour
+  x: -53.57283046427102
+  y: 79.0
+  z: 248.5284665449228
+  yaw: 358.97424
+  pitch: 25.71765
+mlg:
+  world: mlg
+  x: -190.55486559147516
+  y: 178.0
+  z: 191.3004134184448
+  yaw: -0.059286885
+  pitch: 3.6855698
+spawn:
+  world: spawn
+  x: -187.50498755672396
+  y: 112.5
+  z: 256.48963809011934
+  yaw: -0.34353846
+  pitch: -4.3685155

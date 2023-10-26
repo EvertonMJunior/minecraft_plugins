@@ -1,0 +1,31 @@
+# Plugin criado por EvertonDev (EvertonPvP)! #
+#Usando_Kit - Aviso quando ja esta usando o kit e tenta usa-lo de novo #
+#Selecionou_Kit - Aviso quando escolheu o kit #
+#Nao_Possui_Kit - Aviso quando nao possui o kit #
+#Radius_Aviso - Raio de blocos que os players que estao nele receberão um aviso que uma Enderpearl foi jogada #
+#Blocos_Para_Cima - Quantidade de blocos para cima o player que jogou a Enderpearl vai ser teleportado #
+#Efeitos_e_Som_Onde_Foi_Jogada - Use true para os efeitos serem onde a Enderpearl foi jogada e false para ser nos players da radius #
+#tempocooldown - Tempo em segundos do cooldown para ser teleportado apos jogar a Enderpearl #
+#Aguarde_CoolDown - Aviso quando o jogador joga a Enderpearl. Use %TEMPO% para que seja o tempo do cooldown #
+#Aguarde_Lancar - Aviso quando o jogador esta no cooldown para jogar enderpearl. Use %TEMPO% para que seja o tempo do cooldown #
+#Quantidade_de_EnderPearls - Quantidade de enderpearls dadas ao jogador ao digitar /enderman! Use 0 para que seja nenhuma #
+#Chance_Drop - Quando algum jogador for morto por um player usando o kit Enderman, ele terá a chance definida aqui de uma nova enderpearl ser dropada #
+#Nome_Ender - Nome que a EnderPearl receberá #
+
+NomedoServidor: "&3&leSw"
+
+Usando_Kit: "&cVoce ja esta usando o kit %KIT%!"
+Selecionou_Kit: "&aVoce selecionou o kit %KIT%!"
+Nao_Possui_Kit: "&cVoce nao possui o kit %KIT%!"
+
+# KIT ENDERMAN #
+Nome_Ender: "&oPérola do EnderMan"
+Radius_Aviso_Ender: 16
+Blocos_Para_Cima_Ender: 30
+Efeitos_e_Som_Onde_Foi_Jogada_Ender: false
+Tempo_Cooldown_Enderman: 3
+Aguarde_CoolDown_Enderman: "&aVoce sera teleportado em &2&l%TEMPO% &asegundos! Aguarde!"
+Aguarde_Lancar_Ender: "&aAguarde &2&l%TEMPO% segundos para poder jogar a EnderPearl!"
+Quantidade_de_EnderPearls: 0
+Chance_Drop_Ender: 75
+# KIT ENDERMAN #

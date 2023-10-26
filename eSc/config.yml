@@ -1,0 +1,5 @@
+Permissao: esc.chat
+Sem_Permissao: '&7[&c!&7] Permissoes insuficientes!'
+Msg_Entrou_Sc: '&7[&c!&7] Voce entrou no Chat Staff!'
+Msg_Saiu_Sc: '&7[&c!&7] Voce saiu do Chat Staff!'
+Formato: '&7[&b&lSTAFF&7] %NICK% &6&l>> &f%MSG%'

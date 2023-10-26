@@ -1,0 +1,12 @@
+name: E-PVP
+author: EvertonPvP
+description: "E-PVP"
+main: me.everton.EPVP.Main
+version: 1.0.1
+commands: 
+  tag: 
+    description: "Usar uma TAG"
+  admin: 
+    description: "Modo Admin"
+  v: 
+    description: "Ficar invisivel ou visivel"

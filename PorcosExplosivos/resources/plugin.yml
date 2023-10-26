@@ -1,0 +1,7 @@
+name: PorcosExplosivos
+main: br.com.everton.plugin.PorcosExplosivos
+version: 1.0
+
+commands:
+    dima:
+        description: Comando

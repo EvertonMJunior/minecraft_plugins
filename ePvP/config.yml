@@ -1,0 +1,31 @@
+NomeServidor: WoCPvP
+Motd1: '&7[&6%%SERVIDOR&7] &2Entre no servidor! 15 Kits Free!'
+Motd2: '&3Visite: &l%SITE%!'
+Site: wocpvp.com
+Site_Loja: loja.wocpvp.com
+staff:
+- evertonpvp
+- xgamer_pro
+- bia5846
+msgauto:
+- '&6&l%SERVIDOR% &f>> &bQuer ser Youtuber aqui? Use /youtuber!'
+- '&6&l%SERVIDOR% &f>> &bViu algum Hacker? Use /report!'
+- '&6&l%SERVIDOR% &f>> &bQuer ser da Staff? Use /aplicacao!'
+- '&6&l%SERVIDOR% &f>> &bComprando Vip, voce deixa o servidor ON e garante seus beneficios!'
+- '&6&l%SERVIDOR% &f>> &bSe passar no formulario, sera contatado! Caso fique pedindo para
+  ler, suas chances serao diminuidas!'
+log: false
+Pirata_ou_Original: Pirata
+mysql:
+  usar: false
+  ip: 127.0.0.1
+  db: wocpvp
+  user: root
+  senha: vertrigo
+spawn:
+  world: world
+  x: 398.32739891096634
+  y: 123.0
+  z: 635.2344610898341
+  yaw: 181.02325
+  pitch: 0.090950094

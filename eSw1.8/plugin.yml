@@ -1,0 +1,11 @@
+name: eSw
+author: EvertonPvP
+main: me.everton.esw.Main
+version: 1.0
+description: Plugin de SkyWars
+commands: 
+  tag:
+  adm:
+  admin:
+  vis:
+  invis:

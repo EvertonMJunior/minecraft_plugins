@@ -1,0 +1,7 @@
+name: eSw
+author: EvertonDev
+main: me.everton.esw.Main
+version: 1.0
+commands: 
+  enderman: 
+    description: "Usar Kit Enderman"
