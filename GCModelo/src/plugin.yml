@@ -1,0 +1,7 @@
+name: Nome
+version: 1.0
+author: Everton M. Junior
+website: http://good-craft.net
+description: Plugin de * feito para a Good Craft Network.
+main: com.goodcraft.*.Main
+depends: [GCAPI]

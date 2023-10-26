@@ -3,18 +3,25 @@ package me.everton.pvp.kits.habilidades;
 import me.everton.pvp.API;
 import me.everton.pvp.SpawnProtection;
 import me.everton.pvp.cmds.Admin;
+import me.everton.pvp.kits.Kit;
 import me.everton.pvp.kits.KitManager;
 import me.everton.pvp.kits.KitType;
 
 import org.bukkit.ChatColor;
+import org.bukkit.Color;
 import org.bukkit.entity.Arrow;
 import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 import org.bukkit.event.entity.EntityDamageByEntityEvent;
+import org.bukkit.inventory.ItemStack;
 
-public class Archer implements Listener {
-
+public class Archer extends Kit
+implements Listener {
+	public Archer(String nome, String[] desc, ItemStack iS, ItemStack iP, Color c) {
+		super(nome, desc, iS, iP, c);
+	}
+	
 	@SuppressWarnings("deprecation")
 	@EventHandler
 	public void onArrow(EntityDamageByEntityEvent e) {

@@ -1,0 +1,7 @@
+bancodedados:
+  ativo: 'false'
+  ip: 127.0.0.1
+  porta: 3306
+  usuario: root
+  senha: '123'
+  banco: goodcraft_db

@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="GCSkyWars">
+    <output-path>$PROJECT_DIR$/../../Builds</output-path>
+    <root id="archive" name="GCSkyWars.jar">
+      <element id="module-output" name="GCSkyWars" />
+    </root>
+  </artifact>
+</component>

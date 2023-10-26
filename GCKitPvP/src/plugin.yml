@@ -1,0 +1,8 @@
+name: GCKitPvP
+version: 1.0
+author: Everton M. Junior
+description: Plugin de KitPvP feito para a Good Craft Network.
+main: net.goodcraft.kitpvp.Main
+website: http://good-craft.net
+softdepend: [GCAPI]
+depends: [Citizens]

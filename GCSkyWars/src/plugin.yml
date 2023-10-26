@@ -1,0 +1,7 @@
+name: GCSkyWars
+version: 1.0
+author: Everton M. Junior
+website: http://www.good-craft.net
+description: Plugin de SkyWars feito para a Good Craft Network.
+main: net.goodcraft.skywars.Main
+softdepend: [WorldEdit, GCAPI]

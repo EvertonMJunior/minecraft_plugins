@@ -8,6 +8,7 @@ import me.everton.pvp.Main;
 import me.everton.pvp.SpawnProtection;
 import me.everton.pvp.kits.KitManager;
 import me.everton.pvp.kits.KitType;
+import me.everton.pvp.mlg.MLGListener;
 
 import org.bukkit.Bukkit;
 import org.bukkit.Location;
@@ -34,6 +35,7 @@ public class Warps implements Listener,CommandExecutor{
 		ONEVSONE("1v1", LocationsManager.getLocation("1v1")),
 		LAVACHALLENGE("LavaChallenge", LocationsManager.getLocation("lava-challenge")),
 		SIMULADORDEHG("Simulador de HG", LocationsManager.getLocation("simulador-de-hg")),
+		MLG("MLG", LocationsManager.getLocation("mlg")),
 		TEXTURAS("Texturas", LocationsManager.getLocation("texturas"));
 		
 		String nome;
@@ -63,6 +65,7 @@ public class Warps implements Listener,CommandExecutor{
 		inv.setItem(12, API.item(Material.MUSHROOM_SOUP, 1, "§f» §e§lSimulador de HG"));
 		inv.setItem(13, API.item(Material.LAVA_BUCKET, 1, "§f» §6§lLavaChallenge"));
 		inv.setItem(14, API.item(Material.BOOK, 1, "§f» §6§lTexturas"));
+		inv.setItem(15, API.item(Material.WATER_BUCKET, 1, "§f» §9§lMLG"));
 		
 		p.openInventory(inv);
 	}
@@ -105,7 +108,11 @@ public class Warps implements Listener,CommandExecutor{
 				KitManager.resetKit(p);
 				KitManager.giveKit(p, KitType.PVP);
 				warp.put(p.getName(), loc);
+			} else if(loc == Locations.MLG) {
+				MLGListener.enterExit(p);
+				SpawnProtection.removeProtection(p, true);
 			}
+			
 			API.sendTitle(p, "§c§l" + loc.getName(), "§6§lSeja bem-vindo!", 1, 2, 1);
 			return;
 		}
@@ -134,6 +141,25 @@ public class Warps implements Listener,CommandExecutor{
 					KitManager.resetKit(p);
 					API.itensIniciais(p);
 					SpawnProtection.addProtection(p, true);
+				} else if(loc == Locations.FPS) {
+					KitManager.resetKit(p);
+					KitManager.giveKit(p, KitType.PVP);
+					warp.put(p.getName(), loc);
+					SpawnProtection.removeProtection(p, true);
+				} else if(loc == Locations.ONEVSONE) {
+					p.chat("/1v1");
+				} else if(loc == Locations.LAVACHALLENGE) {
+					KitManager.resetKit(p);
+					KitManager.giveKit(p, KitType.PVP);
+					warp.put(p.getName(), loc);
+					SpawnProtection.removeProtection(p, true);
+				} else if(loc == Locations.TEXTURAS) {
+					KitManager.resetKit(p);
+					KitManager.giveKit(p, KitType.PVP);
+					warp.put(p.getName(), loc);
+				} else if(loc == Locations.MLG) {
+					MLGListener.enterExit(p);
+					SpawnProtection.removeProtection(p, true);
 				}
 				API.sendTitle(p, "§c§l" + loc.getName(), "§6§lSeja bem-vindo!", 1, 2, 1);
 				p.teleport(loc.getLocation());
@@ -211,6 +237,9 @@ public class Warps implements Listener,CommandExecutor{
 			}
 			if(i.getType() == Material.BOOK) {
 				tpCd(p, 5, Locations.TEXTURAS, "ao");
+			}
+			if(i.getType() == Material.WATER_BUCKET) {
+				tpCd(p, 5, Locations.MLG, "ao");
 			}
 			if(i.getType() != Material.STAINED_GLASS_PANE) {
 				p.closeInventory();

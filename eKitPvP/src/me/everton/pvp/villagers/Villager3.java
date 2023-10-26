@@ -63,6 +63,7 @@ public class Villager3 implements Listener{
 		}.runTaskTimer(Main.getPlugin(), 0L, 0L);
 	}
 	
+	@SuppressWarnings("unused")
 	@EventHandler
 	public void onIE(PlayerInteractEntityEvent e) {
 		Player p = e.getPlayer();
@@ -79,6 +80,7 @@ public class Villager3 implements Listener{
 		
 	}
 	
+	@SuppressWarnings("unused")
 	private void openInv(Player p) {
 		
 	}

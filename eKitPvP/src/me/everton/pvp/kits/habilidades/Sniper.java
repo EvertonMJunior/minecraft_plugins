@@ -61,6 +61,7 @@ public class Sniper implements Listener {
 					Vector Sniper = p.getLocation().getDirection().normalize()
 							.multiply(100);
 					Arrow SniperH = (Arrow) p.launchProjectile(Arrow.class);
+					SniperH.setKnockbackStrength(1);
 					SniperH.setVelocity(Sniper);
 					SniperH.setMetadata("Sniper",
 							new FixedMetadataValue(Main.getPlugin(), true));
@@ -148,6 +149,7 @@ public class Sniper implements Listener {
 					}
 					p.sendMessage("§7[§c!§7] Fosses atingido por um tiro de "
 							+ s.getName());
+					
 				}
 				e.setDamage(7.0D);
 			}

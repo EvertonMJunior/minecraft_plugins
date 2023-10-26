@@ -1,0 +1,13 @@
+name: EFactions
+author: Everton M. Junior
+version: 1.0
+description: Plugin para o modo de jogo Factions
+main: me.everton.efactions.Main
+depends: [EAPI]
+
+#commands:
+#   hologram:
+#      description: Cria um holograma.
+#      usage: /<command>
+#      permission: efactions.hologram
+#      permission-message: §cVocê nao pode executar este comando!

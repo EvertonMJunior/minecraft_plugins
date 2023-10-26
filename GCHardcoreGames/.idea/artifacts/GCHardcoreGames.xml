@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="GCHardcoreGames">
+    <output-path>$PROJECT_DIR$/../../Builds</output-path>
+    <root id="archive" name="GCHardcoreGames.jar">
+      <element id="module-output" name="GCHardcoreGames" />
+    </root>
+  </artifact>
+</component>

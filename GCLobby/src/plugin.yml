@@ -1,0 +1,7 @@
+name: GCLobby
+version: 1.0
+author: Everton M. Junior
+website: http://www.good-craft.net
+description: Plugin de Lobby feito para a Good Craft Network.
+main: net.goodcraft.lobby.Main
+softdepend: [GCAPI, EchoPet, Citizens]

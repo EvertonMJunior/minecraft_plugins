@@ -18,6 +18,7 @@ import org.bukkit.entity.Player;
 import org.bukkit.event.Event.Result;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
+import org.bukkit.event.block.Action;
 import org.bukkit.event.player.PlayerInteractEvent;
 import org.bukkit.scheduler.BukkitRunnable;
 
@@ -33,7 +34,7 @@ public class Endermage implements Listener {
 			return;
 		}
 
-		if (!e.getAction().name().contains("RIGHT")) {
+		if (e.getAction() != Action.RIGHT_CLICK_BLOCK) {
 			return;
 		}
 
@@ -95,16 +96,28 @@ public class Endermage implements Listener {
 					if (KitManager.getKit(on) != KitType.ENDERMAGE
 							&& isEnderable(bLoc, on.getLocation())
 							&& !on.getName().equalsIgnoreCase(p.getName())) {
+						TeleportP(bLoc, p, on);
 						b.setType(bs.getType());
 						b.setData(bs.getBlock().getData());
-						TeleportP(bLoc, p, on);
 						if (!p.getInventory().contains(
 								API.item(Material.PORTAL))
 								&& KitManager.getKit(p) == KitType.ENDERMAGE) {
+							if (p.getInventory().getItem(8) != null) {
+								if (!API.isInvFull(p)) {
+									p.getInventory().addItem(
+											p.getInventory().getItem(8));
+								} else {
+									p.getWorld().dropItem(p.getLocation(),
+											p.getInventory().getItem(8));
+								}
+								p.getInventory().setItem(8,
+										API.item(Material.AIR));
+							}
 							p.getInventory().setItem(8,
 									KitType.ENDERMAGE.getKitItem());
 							p.updateInventory();
 						}
+						cancel();
 						break;
 					}
 					if (z == 0) {

@@ -19,7 +19,7 @@ public enum KitType {
 	QUICKDROPPER("Quickdropper", "Drope tigelas automaticamente", null, Material.BOWL, false),
 	TITAN("Titan", "Fique invencível, mas sem poder dar dano em ninguém", Material.BEDROCK, Material.BEDROCK, false),
 	FORCEFIELD("Forcefield", "Simule estar usando o hack Forcefield", Material.IRON_FENCE, Material.IRON_FENCE, false),
-	AVATAR("Avatar", "Tenha os 4 poderes do Avatar", Material.BEACON, Material.BEACON, false),
+	AVATAR("Avatar", "Tenha os 4 poderes do Avatar", Material.GRASS, Material.BEACON, false),
 	FLASH("Flash", "Se teleporte com sua tocha", Material.REDSTONE_TORCH_ON, Material.REDSTONE_TORCH_ON, false),
 	NINJA("Ninja", "Teleporte-se para o último jogador hitado", null, Material.NETHER_STAR, false),
 	POSEIDON("Poseidon", "Ganhe força e velocidade na água", null, Material.WATER_BUCKET, false),

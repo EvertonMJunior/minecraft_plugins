@@ -1,0 +1,7 @@
+name: GCAPI
+version: 1.0
+author: Everton M. Junior
+description: API feita para a Good Craft Network.
+main: net.goodcraft.Main
+website: http://good-craft.net
+depends: [ProtocolLib]

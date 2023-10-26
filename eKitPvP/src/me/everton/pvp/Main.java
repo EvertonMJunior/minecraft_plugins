@@ -66,6 +66,7 @@ import me.everton.pvp.listeners.MoveListener;
 import me.everton.pvp.listeners.QuitListener;
 import me.everton.pvp.listeners.Signs;
 import me.everton.pvp.listeners.Sopa;
+import me.everton.pvp.mlg.MLGListener;
 import me.everton.pvp.tags.TagCmd;
 import me.everton.pvp.villagers.Villager1;
 import me.everton.pvp.villagers.Villager2;
@@ -197,6 +198,7 @@ public class Main extends JavaPlugin {
 		registerEvent(new Desafiar());
 		registerEvent(new Motd());
 		registerEvent(new Bot());
+		registerEvent(new MLGListener());
 		registerEvent(new Villager1());
 		registerEvent(new Villager2());
 		registerEvent(new Villager3());
@@ -209,7 +211,7 @@ public class Main extends JavaPlugin {
 		registerEvent(new Flash());
 		registerEvent(new Grappler());
 		registerEvent(new Kangaroo());
-		registerEvent(new Archer());
+		registerEvent(new Archer(null, null, null, null, null));
 		registerEvent(new Ninja());
 		registerEvent(new Poseidon());
 		registerEvent(new Sniper());
@@ -225,12 +227,12 @@ public class Main extends JavaPlugin {
 		registerEvent(new Hulk());
 		registerEvent(new Thor());
 		registerEvent(new Titan());
-		registerEvent(new Aladdin());
+		registerEvent(new Aladdin(null, null, null, null, null));
 		registerEvent(new Fenix());
 		registerEvent(new Monk());
 		registerEvent(new Endermage());
 		registerEvent(new Timelord());
-		registerEvent(new Anchor());
+		registerEvent(new Anchor(null, null, null, null, null));
 		registerEvent(new Fireman());
 		registerEvent(new Fisherman());
 		registerEvent(new Pyro());
@@ -355,7 +357,7 @@ public class Main extends JavaPlugin {
 
 		c = MySQL.openConnection();
 		if(c == null) {
-			Bukkit.getConsoleSender().sendMessage(" ");
+			/*Bukkit.getConsoleSender().sendMessage(" ");
 			Bukkit.getConsoleSender().sendMessage(" ");
 			Bukkit.getConsoleSender().sendMessage(
 					"§7>> §bErro na conexao com o MySQL!");
@@ -363,7 +365,7 @@ public class Main extends JavaPlugin {
 					"§7>> §bDesligando o Servidor!");
 			Bukkit.getConsoleSender().sendMessage(" ");
 			Bukkit.getConsoleSender().sendMessage(" ");
-			Bukkit.shutdown();
+			Bukkit.shutdown();*/
 		} else {
 			Bukkit.getConsoleSender().sendMessage(" ");
 			Bukkit.getConsoleSender().sendMessage(" ");

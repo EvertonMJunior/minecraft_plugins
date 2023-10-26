@@ -1,0 +1,7 @@
+name: GCHardcoreGames
+version: 1.0
+author: Everton M. Junior
+website: http://good-craft.net
+description: Plugin de HG feito para a Good Craft Network.
+main: net.goodcraft.hardcoregames.Main
+depends: [ProtocolLib, GCAPI]

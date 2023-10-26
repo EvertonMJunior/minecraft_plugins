@@ -22,7 +22,7 @@ public class Hack implements CommandExecutor {
 		p.playSound(p.getLocation(), Sound.NOTE_PLING, 15.5F, 15.5F);
 		Inventory inv = Bukkit.createInventory(p, 9, "§c➤ §lHacks");
 		inv.setItem(0, API.item(Material.BONE, 1, "§6§lAntiKnockback"));
-		inv.setItem(1, API.item(Material.NETHER_STAR, 1, "§6§lFF/KA"));
+		inv.setItem(1, API.item(Material.DIAMOND_SWORD, 1, "§6§lFF/KA"));
 		inv.setItem(2, API.item(Material.MUSHROOM_SOUP, 1, "§6§lAutoSoup"));
 		p.openInventory(inv);
 	}

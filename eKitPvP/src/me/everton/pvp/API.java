@@ -367,10 +367,14 @@ public class API {
 			@Override
 			public void run() {
 				if(pKit != KitManager.getKit(p)) {
+					cd.remove(p.getName());
 					cancel();
+					return;
 				}
 				if(!p.isOnline()) {
+					cd.remove(p.getName());
 					cancel();
+					return;
 				}
 				if(time > 0) {
 					cd.put(p.getName(), time);
@@ -380,6 +384,7 @@ public class API {
 						p.sendMessage(msgFinalCd);
 						p.playSound(p.getLocation(), Sound.LEVEL_UP, 15.5F, 15.5F);
 					}
+					cd.remove(p.getName());
 					cancel();
 				}
 			}

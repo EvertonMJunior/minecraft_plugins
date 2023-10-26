@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="GCAPI">
+    <output-path>$PROJECT_DIR$/../../Builds</output-path>
+    <root id="archive" name="GCAPI.jar">
+      <element id="module-output" name="GCAPI" />
+    </root>
+  </artifact>
+</component>

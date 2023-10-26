@@ -6,7 +6,6 @@ import java.util.Random;
 
 import me.everton.pvp.API;
 import me.everton.pvp.Main;
-import me.everton.pvp.OptionsManager;
 import me.everton.pvp.ScoreManager;
 import me.everton.pvp.ScoreboardManager;
 import me.everton.pvp.ScoreManager.Money;

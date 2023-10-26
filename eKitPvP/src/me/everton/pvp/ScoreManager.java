@@ -320,6 +320,8 @@ public class ScoreManager {
 				level = "Médio";
 			} else if(Kills.getKills(n) > 0) {
 				level = "Fácil";
+			} else {
+				level = "Fácil";
 			}
 			
 			return level;
